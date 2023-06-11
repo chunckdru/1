@@ -1,0 +1,145 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: l lcc, 1, LIC=D0D7S-LJRIP-9UR4U-S1U2X-ARN7W-A0X2X
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.18
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+C:\Users\lcc\Desktop\k\stm32HIDcode\amovias\MDK-ARM\amovias.uvprojx
+Project File Date:  05/20/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'amovias'
+assembling startup_stm32f103xb.s...
+compiling keymap.c...
+compiling key_matrix.c...
+..\icode\key_matrix.c(19): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+OL0_GPIO_Port,
+OL0_Pin,col&0x01);
+..\icode\key_matrix.c(20): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+OL1_GPIO_Port,
+OL1_Pin,col>>1&0x01);
+..\icode\key_matrix.c(21): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+OL2_GPIO_Port,
+OL2_Pin,col>>2&0x01);
+..\icode\key_matrix.c(22): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+OL3_GPIO_Port,
+OL3_Pin,col>>3&0x01);
+..\icode\key_matrix.c(23): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+OL4_GPIO_Port,
+OL4_Pin,col>>4&0x01);
+..\icode\key_matrix.c(24): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+OL5_GPIO_Port,
+OL5_Pin,col>>5&0x01);
+..\icode\key_matrix.c(25): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+OL6_GPIO_Port,
+OL6_Pin,col>>6&0x01);
+..\icode\key_matrix.c(26): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+OL7_GPIO_Port,
+OL7_Pin,col>>7&0x01);
+..\icode\key_matrix.c(27): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+OL8_GPIO_Port,
+OL8_Pin,col>>8&0x01);
+..\icode\key_matrix.c(28): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+OL9_GPIO_Port,
+OL9_Pin,col>>9&0x01);
+..\icode\key_matrix.c(29): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+OL10_GPIO_Port,
+OL10_Pin,col>>10&0x01);
+..\icode\key_matrix.c(30): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+OL11_GPIO_Port,
+OL11_Pin,col>>11&0x01);
+..\icode\key_matrix.c(31): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+OL12_GPIO_Port,
+OL12_Pin,col>>12&0x01);
+..\icode\key_matrix.c(32): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+OL13_GPIO_Port,
+OL13_Pin,col>>13&0x01);
+..\icode\key_matrix.c: 14 warnings, 0 errors
+compiling ws2812.c...
+compiling main.c...
+compiling gpio.c...
+compiling dma.c...
+compiling tim.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_msp.c...
+compiling usb_device.c...
+compiling usbd_desc.c...
+compiling usbd_conf.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_pcd_ex.c...
+compiling stm32f1xx_hal_pcd.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_ll_usb.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling system_stm32f1xx.c...
+compiling usbd_core.c...
+compiling usbd_ctlreq.c...
+compiling usbd_ioreq.c...
+compiling usbd_hid.c...
+linking...
+Program Size: Code=19048 RO-data=304 RW-data=696 ZI-data=9592  
+FromELF: creating hex file...
+"amovias\amovias.axf" - 0 Error(s), 14 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\lcc\Desktop\k\stm32HIDcode\amovias\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:01:02
+</pre>
+</body>
+</html>

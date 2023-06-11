@@ -1,0 +1,7 @@
+配列生成：http://www.keyboard-layout-editor.com
+定位板/外壳：http://builder.swillkb.com
+PCB固件：https://kbfirmware.com
+QMK手册：https://docs.qmk.fm
+QMK工具箱：https://github.com/qmk/qmk_toolbox/releaseseQMK编译器https://msys.qmk.fm
+VIA官网：https://www.caniusevia.com
+Zadig_驱动：https://zadig.akeo.ie
